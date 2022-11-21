@@ -209,8 +209,11 @@ public class FrequênciaInterdisciplinar {
                                2 - Cadastro de Docente 
                                3 - Cadastro de Turma 
                                4 - Cadastro de Disciplina 
-                               5 - Mostrar Alunos 
-                               6 Sair""");
+                               5 - Lançar Faltas
+                               6 - Excluir Aluno
+                               7 - Excluir Professor
+                               8 - Mostrar Alunos
+                               9 - Sair""");
 
             opcao = entrada.nextInt();
 
@@ -222,13 +225,14 @@ public class FrequênciaInterdisciplinar {
                 case 5: LançarFalta(); break;
                 case 6: ExcluirAluno(); break;
                 case 7: ExcluirProf(); break;
-                case 8: System.out.println("Encerrando o sistema..."); break;
+                case 8: mostrarAlunos(); break;
+                case 9: System.out.println("Encerrando o sistema..."); break;
 
                 default:
                 System.out.println("Opção Inválida!");
 
             }  
-        }while(opcao != 8);
+        }while(opcao != 9);
         
  
     }
