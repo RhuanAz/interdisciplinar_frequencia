@@ -212,7 +212,7 @@ public class FrequênciaInterdisciplinar {
                                5 - Lançar Faltas
                                6 - Excluir Aluno
                                7 - Excluir Professor
-                               8 - Mostrar Alunos
+                               8 - Mostrar Todos os Alunos
                                9 - Sair""");
 
             opcao = entrada.nextInt();
